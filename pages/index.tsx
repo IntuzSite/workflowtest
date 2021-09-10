@@ -6,7 +6,8 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   const showAlert = () => {
-    alert("hrllodaf");
+    const v = "dsafsa";
+    alert(v);
   };
   return (
     <div className={styles.container}>
