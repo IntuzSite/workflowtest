@@ -6,7 +6,11 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   const showAlert = () => {
+    console.log("hello");
+    // console.log("hello");
+
     const v = "dsafsa";
+
     alert(v);
   };
   return (
