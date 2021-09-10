@@ -5,6 +5,9 @@ import Test from "../components/test";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
+  const showAlert = () => {
+    alert("hrllodaf");
+  };
   return (
     <div className={styles.container}>
       <Head>
@@ -15,7 +18,7 @@ const Home: NextPage = () => {
 
       <Test title={"sadasd"} />
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <h1 onClick={showAlert} className={styles.title}>
           basic change to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
